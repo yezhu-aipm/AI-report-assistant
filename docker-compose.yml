@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: xueqing-report:latest
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:8000:8000"   # 只对本机开放，由 Nginx 对外提供 HTTPS
+    volumes:
+      - ./data:/data            # 数据库、上传的材料、生成的报告都在这里，记得定期备份
