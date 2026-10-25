@@ -46,7 +46,7 @@
 
 ## 第 3 步：连上服务器，上传安装包
 
-1. 从本仓库的 [Releases](../../../releases) 下载 `xueqing-release.zip`（**不要**下载绿色 Code 按钮里的源码包）。
+1. 从本仓库的 [Releases](https://github.com/yezhu-aipm/ai-report-assistant/releases) 下载 `xueqing-release.zip`（**不要**下载绿色 Code 按钮里的源码包）。
 2. 在实例页面点"**远程连接**" → "通过 Workbench 远程连接" → "立即登录"。
    - 第一次会弹出"服务关联角色"的提示，点"确定"。
    - 如果免密连接失败，就选"终端连接"，用 `root` 和第 2 步设的密码登录。

@@ -10,7 +10,7 @@
 
 ## 2. 安装
 
-1. 从 [Releases](../../releases) 下载 `xueqing-release.zip`。这个包里已经有打包好的前端。
+1. 从 [Releases](https://github.com/yezhu-aipm/ai-report-assistant/releases) 下载 `xueqing-release.zip`。这个包里已经有打包好的前端。
 2. 把 zip 上传到服务器的 `/root`。可以用云厂商控制台网页终端自带的文件上传，或者用 `scp`。
 3. 在服务器上运行：
 

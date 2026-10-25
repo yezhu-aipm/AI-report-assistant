@@ -98,7 +98,7 @@
 
 > 🧑‍🏫 **不懂技术？**看 [新手教程](./docs/QUICKSTART.md)：从买服务器、申请大模型 API Key，到邀请老师注册，一步一步照着做，大约 30 分钟。
 
-**部署到服务器**（2 核 2G 就够用）：从 [Releases](../../releases) 下载 `xueqing-release.zip`，上传到服务器后运行：
+**部署到服务器**（2 核 2G 就够用）：从 [Releases](https://github.com/yezhu-aipm/ai-report-assistant/releases) 下载 `xueqing-release.zip`，上传到服务器后运行：
 
 ```bash
 apt-get update && apt-get install -y unzip && cd /root && unzip -o xueqing-release.zip && cd xueqing && bash deploy/install.sh
