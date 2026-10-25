@@ -96,6 +96,8 @@
 
 ## 快速开始
 
+> 🧑‍🏫 **不懂技术？**看 [新手教程](./docs/QUICKSTART.md)：从买服务器、申请大模型 API Key，到邀请老师注册，一步一步照着做，大约 30 分钟。
+
 **部署到服务器**（2 核 2G 就够用）：从 [Releases](../../releases) 下载 `xueqing-release.zip`，上传到服务器后运行：
 
 ```bash
@@ -123,7 +125,7 @@ cd ../frontend && npm install && npm run dev      # 打开 http://localhost:5173
 ├── frontend/          # React 网站：首页、登录注册、工作区、5 步向导、设置
 ├── deploy/            # 一键安装 / 升级脚本、备份脚本、Nginx 配置（IP 版 / 域名版）
 ├── samples/           # 虚构的示例材料
-└── docs/              # 部署指南、技术架构、截图
+└── docs/              # 新手教程、部署指南、技术架构、截图
 ```
 
 ## 怎么做出来的
